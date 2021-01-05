@@ -1,0 +1,14 @@
+{
+  "name": "node-shop-online",
+  "version": "1.0.0",
+  "description": "home test",
+  "main": "services.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Joel Viellepeau",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}
