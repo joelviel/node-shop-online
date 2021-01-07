@@ -10,9 +10,11 @@ const cartCheckout = cartInfo => {
 	
 	Object.keys(cartInfo).forEach(sku => cart.addItem(sku, cartInfo[sku]))
 		
-	console.log(cart, 'Total $'+cart.price)
+	const price = cart.price
 	
-	return cart.price
+	console.log(cart, 'Total $'+price)
+	
+	return price
 	
 }
 
