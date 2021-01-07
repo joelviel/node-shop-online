@@ -1,6 +1,8 @@
 # How to test the cartCheckout service
 git clone https://github.com/joelviel/node-shop-online && cd node-shop-online
+
 npm install
+
 npm test
 
 Example of test output
